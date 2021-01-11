@@ -1,0 +1,12 @@
+.placeholder{
+    background-color: cyan;
+    font-style: oblique;
+}
+
+.anotherClass{
+    background-color: lightcyan;
+    letter-spacing: 5pt;
+    initial-letter-align: 1pt;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
