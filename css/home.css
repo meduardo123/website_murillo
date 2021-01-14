@@ -2,7 +2,7 @@
 body{
     margin: 0;
     background-color: rgb(219, 218, 218);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .link-bar{
-    height: 15px;
+    height: 17px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 
@@ -61,6 +61,14 @@ body{
 
 .link-bar a:hover{
     color: black;
+}
+
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    border-bottom: black !important;
 }
 
 /*CONTENT STYLES*/
@@ -124,4 +132,5 @@ body{
     transition: 1s;
     filter: brightness(10%);
 }
+
 
