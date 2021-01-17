@@ -36,3 +36,19 @@
 .social-img img{
     height: 40px;
 }
+
+/*CAIXA DE SUGESTÕES*/
+.sugestion{
+    padding-left: 0px;
+    margin-top: 6px;
+}
+
+.text_area{
+    height: 100px;
+    width: 600px;
+    border-radius: 3px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Trebuchet MS, sans-serif;
+}
+
