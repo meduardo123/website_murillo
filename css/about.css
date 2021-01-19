@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-/*right side*/
+/*left side*/
 .profile-img{
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
     height: 600px; 
 }
 
-/*left side*/
+/*rigth side*/
 .profile-content{
     padding: 30px;
     text-align: justify;
