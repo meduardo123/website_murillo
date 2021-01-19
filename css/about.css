@@ -50,5 +50,29 @@
     padding: 10px;
     font-weight: bold;
     font-family: Trebuchet MS, sans-serif;
+    background-color: rgb(226, 225, 225);
+    border-color: black;
+    transition: 0.5s;
 }
 
+input[type="submit"], button {
+    padding: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+input[type="submit"]{
+    background-color: rgb(226, 225, 225);
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.button{
+    
+}

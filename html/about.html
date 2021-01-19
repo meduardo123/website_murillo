@@ -47,11 +47,13 @@
                             Please, feel free to give any tips or advises in the sugestion box bellow. 
                         </p>
 
-                        <form class="sugestion">
-                            <!-- <span id="mensagemErro"></span> -->
-                            <ul id="mensagemErro" class="lista-erro"></ul>
-                            <Textarea id="mensagem_contato" name="mensagem" class="text_area" placeholder="How can we improve this website?"
-                                rows="3"></Textarea> <br>
+                        <form class="sugestion" action="../php/sugestion.php">
+                            <textarea id="mensagem_contato" name="mensagem" class="text_area" placeholder="How can we improve this website?" rows="3"></textarea> 
+                            <div class="button">
+                                <input type="submit" value="Send">
+                                <button id='clear'>Cancel</button>
+                            </div>
+                            <br>
                             <br>
                         </form>
                         <div class="social-img">
@@ -73,12 +75,10 @@
             </div>
 
         </div>
-        
 
+        <!-- <script src="../js/button.js"></script> -->
     </body>
-
-
-
+    
 </html>
 
 
