@@ -1,7 +1,39 @@
-/*general*/
+/*general
+html{
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-size: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 50%;
+	-ms-text-size-adjust: 50%;	
+}
+
+body{
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+    width: 100%;
+}*/
+
+.title{
+    justify-content: center;
+    padding: 2px;
+    background-color:rgb(174, 213, 214);
+    height: 50px;
+    width: 180px;
+    font-size: 25px;
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.title p{
+    align-self: center;
+}
+
+
 img{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 90%;
     align-items: center;
 }
 
@@ -33,6 +65,7 @@ img{
 .img{
     display: flex;
     align-items: center;
+    
 }
 
 .description{
