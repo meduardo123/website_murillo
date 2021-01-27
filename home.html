@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<htm lang="pt-br">
+    <head>
+        <title>First website - Murillo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/home.css">
+    </head>
+    <body>
+        <div class="general">
+            <div class="navbar">
+                <div class="left-bar">
+                    <div class="link-bar active-nav-link">
+                        <a href="../html/home.html">Home</a>
+                    </div>
+                    <div class="link-bar">
+                        <a href="../html/about.html">About</a>
+                    </div>
+                </div>
+                <div class="rigth-bar">
+                    <div class="created">
+                        <div>created by</div>
+                    </div>
+                    <div class="name-bar">
+                        <div>MURILLO FABRI</div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="content">
+                <div class="items">
+                
+                    <div class="item">
+                        <div class="img-background" style="background-image: url(../img/beach.jpg);"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <a href="../html/beaches.html"><img src="../img/lupa.png"></a>
+                            </div>
+                            <div class="subtitle">
+                                Beaches
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <div class="img-background" style="background-image: url(../img/waterfall.jpg);"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <a href="../html/waterfalls.html"><img src="../img/lupa.png" scrset="../html/waterfalls.html"></a>
+                            </div>
+                            <div class="subtitle">
+                                Waterfalls
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="item">
+                        <div class="img-background" style="background-image: url(../img/trekking.jpg);"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <a href="../html/trekking.html"><img src="../img/lupa.png"></a>
+                            </div>
+                            <div class="subtitle">
+                                Trekking
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </body>
+    <script>
+        const Items = document.querySelectorAll('.item')
+
+        Items.forEach(Item => {
+            Item.addEventListener('mouseover', () => {
+                Item.childNodes[1].classList.add('img-darken');
+                /*Item.childNodes[1].classList.add('logo');*/
+            })
+            Item.addEventListener('mouseout', () => {
+                Item.childNodes[1].classList.remove('img-darken');
+                /*Item.childNodes[1].classList.remove('logo');*/
+            })
+        })
+    </script>
+
+
+</html>

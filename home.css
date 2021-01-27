@@ -1,0 +1,136 @@
+/* MAIN STYLES*/
+body{
+    margin: 0;
+    background-color: rgb(219, 218, 218);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+
+.general{ /*USING GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*NAVBAR STYLES*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.rigth-bar{
+    display: flex;
+}
+
+.created{
+    font-size: 0.5em;
+    margin-top: 8px;
+}
+
+.name-bar{
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+.left-bar{
+    display: flex;
+}
+
+.navbar > .left-bar > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.link-bar{
+    height: 17px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.link-bar a{
+    color: rgb(80, 80, 78);
+    text-decoration: none;
+    transition: color 0.5s;    
+}
+
+.link-bar:hover{
+    border-bottom: 1px solid black; /* PRECISO SABER COMO LINKAR A ANIMAÇÃO DA BORDA COM O LINK*/
+}
+
+.link-bar a:hover{
+    color: black;
+}
+
+.active-nav-link{
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a{
+    border-bottom: black !important;
+}
+
+/*CONTENT STYLES*/
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    position: relative;
+}
+
+.img-background{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.img-text .logo img{
+    transition: 1s;
+    width: 60%;
+    margin-bottom: 20px;
+    filter:opacity(0);
+}
+
+.img-text:hover .logo img{
+    transition: 1s;
+    filter: opacity(100);
+}
+
+.img-text .subtitle{
+    transition: 1s;
+    font-weight: 300;
+    color: transparent;
+    
+}
+
+.img-text:hover .subtitle{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+
