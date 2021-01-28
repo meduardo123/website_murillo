@@ -23,9 +23,10 @@ html{
     height: 50px;
     width: 180px;
     font-size: 25px;
-    display: flex;
+    display: inline-flex;
     font-weight: bold;
     border-radius: 10px;
+    float: center;
 }
 
 .title p{
@@ -62,7 +63,7 @@ img{
     display: grid;
     grid-template-columns: 25% 75%;
     height: 150px;
-    padding: 0 15 0 15;
+    padding: 0 300 0 15;
 }
 
 .post-left{
@@ -70,7 +71,7 @@ img{
     display: grid;
     grid-template-columns: 75% 25%;
     height: 150px;
-    padding: 0 15 0 15;
+    padding: 0 15 0 300;
 }
 
 .img{
@@ -81,15 +82,20 @@ img{
 
 .description{
     padding-left: 20px;
+    padding-right: 20px;
     justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .link-right{
     text-align: right;
+    float: left;
 }
 
 .link-left{
     text-align: left;
+    float: right;
 }
 
 .details{
